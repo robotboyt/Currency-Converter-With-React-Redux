@@ -1,0 +1,26 @@
+.rate {
+  width: 100%;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .rateList {
+      width: 400px;
+      li {
+        display: flex;
+        justify-content: space-between;
+        font-size: 30px;
+        list-style: none;
+        margin-bottom: 30px;
+
+        &:hover {
+          transition: 0.1s ease-in-out;
+          color: white;
+          cursor: default;
+        }
+      }
+    }
+  }
+}
